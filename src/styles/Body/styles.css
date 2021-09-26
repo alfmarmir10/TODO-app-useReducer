@@ -1,0 +1,74 @@
+.main-container{
+  height: 84vh;
+  max-width: 700px;
+}
+
+.add-task-main-container{
+  height: 20%;
+}
+
+.input-main-container{
+  width: 90%;
+  height: 60%;
+  border: none;
+  border-radius: 100px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  box-shadow: 0px 0px 6px 2px black;
+}
+
+.left-action-container{
+  width: 13%;
+  height: 100%;
+  background-color: white;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
+  margin: 0;
+  opacity: 0;
+}
+
+.delete-icon{
+  width: 60%;
+}
+
+.input-task{
+  width: 72%;
+  height: 100%;
+  border: none;
+  padding: 0 1%;
+}
+
+.right-action-container{
+  width: 13%;
+  height: 100%;
+  border-top-right-radius: 100px;
+  border-bottom-right-radius: 100px;
+  margin: 0;
+  opacity: 0;
+}
+
+.add-icon{
+  width: 60%;
+}
+
+.tasks-main-container{
+  width: 100%;
+  height: 80%;
+}
+
+.list-card{
+  width: 90%;
+  height: 95%;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0px 0px 3px 2px black;
+  position: relative;
+}
+
+.visible{
+  opacity: 1;
+}
+
